@@ -18,7 +18,7 @@ Basically this model uses field oriented control which is a performant AC motor 
 ### Operation
 The Rlagent.m and L7_Project_218.slx are the main files of this project. So keep both the files in the same path while running on matlab. Open and Run the RLagent.m script file. This script file will open a simulink model namely L7_Project_218.slx and after simulation it gives the result. Run at different stop times to see and analyze the graphs. For example run at 0.2 sec stop time to see the three phase voltage Vph graph and run at 10 sec stop time to clearly see the estimated torque graph.
 It is known that FOC is used if the rotor speed is known. So for more analysis you can run the model at different Ref_input( Mechanical input to the PMSM) like 3000 rpm, 1500 rpm, 5000 rpm etc and simultaneously different Speed_fb like 2 pu(3000 rpm), 1 pu(1500 rpm), 3.33 pu(5000 rpm) etc.
-For video tutorial click [here](https://youtu.be/pflJYQsLRYI)
+For video tutorial [click here](https://youtu.be/pflJYQsLRYI)
 
 ## Skills:-
 + Matlab and Simulink
